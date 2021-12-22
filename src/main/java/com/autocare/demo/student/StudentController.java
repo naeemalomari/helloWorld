@@ -17,7 +17,10 @@ public class StudentController {
                         "Naim", "AlOmari",
                         "naeemalomari@gmail.com", Student.Gender.MALE),
                 new Student(UUID.randomUUID(), "Slim", "Shady",
-                        "slimshady@gmail.com", Student.Gender.FEMALE)
+                        "slimshady@gmail.com", Student.Gender.FEMALE),
+                new Student(UUID.randomUUID(), "Thebigger", "Thebiggest",
+                        "Thebigger@gmail.com", Student.Gender.MALE)
+
         );
     }
 }
