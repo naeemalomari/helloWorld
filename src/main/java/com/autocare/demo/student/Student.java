@@ -1,6 +1,11 @@
 package com.autocare.demo.student;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.boot.autoconfigure.flyway.FlywayDataSource;
+
 import java.util.UUID;
+
 
 public class Student {
     private final UUID studentID;
@@ -16,6 +21,8 @@ public class Student {
         this.email = email;
         this.gender = gender;
     }
+
+
 
     public UUID getStudentID() {
         return studentID;
